@@ -19,7 +19,7 @@ This project was developed and tested using:
 Activate virtual environment and:
     Install dependencies using:
 
-        pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ---
 
