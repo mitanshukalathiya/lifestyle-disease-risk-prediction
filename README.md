@@ -41,6 +41,7 @@ Activate virtual environment and:
 ## Machine Learning Pipeline
 
 The project follows a standard industry ML workflow:
+
 	1.	Data collection
 	2.	Data cleaning and preprocessing
 	3.	Exploratory Data Analysis (EDA)
@@ -60,13 +61,13 @@ The project follows a standard industry ML workflow:
     - Random Forest
     - XGBoost
 
-Best performing model: **XGBoost**
+Best performing model: XGBoost
 
 ---
 
 ## Final Model Performance
 
-    Test Accuracy: **74.2%**
+    Test Accuracy: 74.2%
 
 ---
 
@@ -90,6 +91,7 @@ Dataset used: Cardiovascular Disease Dataset
 Number of records: ~70,000 patients
 
 Features include:
+
 	•	Age
 	•	Gender
 	•	Height
@@ -101,10 +103,9 @@ Features include:
 	•	Alcohol consumption
 	•	Physical activity
 
-Target variable:
-    cardio
+Target variable: cardio
 
-0 → No cardiovascular disease
-1 → Cardiovascular disease present
+	0 → No cardiovascular disease
+	1 → Cardiovascular disease present
 
 
