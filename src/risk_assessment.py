@@ -132,10 +132,6 @@ high_risk_patient = {
 
 
 def run_demo():
-    """
-    Run prediction for multiple demo patients.
-    """
-
     patients = {
         "Healthy Patient": healthy_patient,
         "Moderate Risk Patient": moderate_risk_patient,
@@ -160,7 +156,9 @@ def run_demo():
         print("\n")
 
 
+# -----------------------------------------------------------
 # Optional: Function to allow user input for prediction
+# -----------------------------------------------------------
 """
 def user_input_prediction():
     print("\nEnter Patient Details")
