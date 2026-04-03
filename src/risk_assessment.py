@@ -1,3 +1,4 @@
+from xml.parsers.expat import model
 from predict import load_model, predict_probability
 
 
@@ -65,8 +66,8 @@ def generate_recommendations(patient_data: dict):
 def predict_health_risk(patient_data: dict):
     model = load_model()
 
-    probability = predict_probability(model, patient_data)
-
+    probability, prediction = predict_probability(model, patient_data)
+    
     risk_score = calculate_risk_score(probability)
 
     risk_level = classify_risk(probability)

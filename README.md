@@ -67,7 +67,9 @@ Best performing model: XGBoost
 
 ## Final Model Performance
 
-    Test Accuracy: 74.2%
+	Accuracy: 71.34%
+	Recall: 83.56%
+	F1 Score: 74.17%
 
 ---
 
@@ -103,7 +105,7 @@ Features include:
 	•	Alcohol consumption
 	•	Physical activity
 
-Target variable: cardio
+Target variable: Cardio
 
 	0 → No cardiovascular disease
 	1 → Cardiovascular disease present
