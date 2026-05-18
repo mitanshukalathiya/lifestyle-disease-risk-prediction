@@ -1,9 +1,16 @@
-# Virtual environment
+# Python virtual environment
 venv/
+.venv/
 
 # Python cache
 __pycache__/
 *.pyc
+
+# Node / frontend
+node_modules/
+frontend/node_modules/
+frontend/.next/
+.next/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -13,6 +20,19 @@ __pycache__/
 
 # Environment variables
 .env
+.env.*
 
 # Dataset
 data/
+
+# ML artifacts
+ML/artifacts/
+
+# IDE / editor
+.vscode/
+
+# Test caches
+.pytest_cache/
+
+# Logs
+*.log
