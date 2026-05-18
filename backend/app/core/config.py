@@ -9,7 +9,10 @@ class Settings(BaseSettings):
 
     MODEL_PATH: Path = Path(__file__).resolve().parents[1] / "artifacts" / "cardiovascular_model_v1.pkl"
 
-    ALLOWED_ORIGINS: list[str] = ["http://localhost:3000"]
+    ALLOWED_ORIGINS: list[str] = [
+        "http://localhost:3000",
+        "https://cvd-risk-prediction-eight.vercel.app"
+    ]
 
     class Config:
         env_file = ".env"
