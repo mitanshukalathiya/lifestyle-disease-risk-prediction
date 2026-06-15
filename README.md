@@ -10,6 +10,12 @@ This system analyzes health data such as age, BMI, blood pressure, cholesterol l
 
 ---
 
+## Live Demo
+
+https://cvd-risk-prediction-eight.vercel.app
+
+---
+
 ## Environment Setup
 
 This project was developed and tested using:
