@@ -1,38 +1,143 @@
-# Python virtual environment
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
 venv/
 .venv/
+env/
+ENV/
 
-# Python cache
-__pycache__/
-*.pyc
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
 
-# Node / frontend
-node_modules/
-frontend/node_modules/
-frontend/.next/
-.next/
+# =========================
+# Jupyter Notebook
+# =========================
 
-# Jupyter
 .ipynb_checkpoints/
 
-# macOS system files
-.DS_Store
-
-# Environment variables
-.env
-.env.*
-
+# =========================
 # Dataset
+# =========================
+
 data/
 
-# ML artifacts
-ML/artifacts/
+# =========================
+# Environment Variables
+# =========================
 
-# IDE / editor
+.env
+.env.*
+!.env.example
+
+# =========================
+# macOS
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================
+# VS Code
+# =========================
+
 .vscode/
+*.code-workspace
 
-# Test caches
-.pytest_cache/
+# =========================
+# JetBrains IDEs
+# =========================
 
+.idea/
+*.iml
+
+# =========================
+# Node.js / Next.js
+# =========================
+
+node_modules/
+.next/
+out/
+build/
+
+# =========================
+# Vercel
+# =========================
+
+.vercel/
+
+# =========================
+# Yarn / PnPM
+# =========================
+
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# =========================
+# TypeScript
+# =========================
+
+*.tsbuildinfo
+next-env.d.ts
+
+# =========================
+# Certificates / Keys
+# =========================
+
+*.pem
+
+# =========================
+# npm / Yarn / PnPM Logs
+# =========================
+
+npm-debug.log*
+npm-error.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# =========================
 # Logs
+# =========================
+
 *.log
+
+# =========================
+# Temporary Files
+# =========================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+
+# =========================
+# Testing / Coverage
+# =========================
+
+.coverage
+coverage/
+.pytest_cache/
+htmlcov/
+
+# =========================
+# Local Development
+# =========================
+
+*.local

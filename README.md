@@ -1,46 +1,80 @@
-# Lifestyle Disease Risk Prediction using Machine Learning
+# AI-Powered Cardiovascular Disease Risk Assessment Platform
 
-## Project Overview
+An AI-powered web application that estimates cardiovascular disease risk using patient health and lifestyle information and provides personalized preventive recommendations.
 
-This project predicts the risk of cardiovascular disease using machine learning based on lifestyle and health indicators.
-
-Cardiovascular diseases are one of the leading causes of death worldwide. Early prediction of risk factors can help individuals take preventive actions and improve long-term health outcomes.
-
-This system analyzes health data such as age, BMI, blood pressure, cholesterol levels, and lifestyle habits to estimate disease risk and provide preventive health recommendations.
-
----
+The project combines a machine learning model, FastAPI backend, and modern Next.js frontend into a complete end-to-end AI application.
 
 ## Live Demo
 
-https://cvd-risk-prediction-eight.vercel.app
+🌐 **Web Application:**  
+https://cvd-risk-prediction-eight.vercel.app/
+
+🔗 **Backend API Documentation:**  
+https://cardiovascular-risk-backend.onrender.com/docs
+
+> Note: The backend is hosted on Render's free tier, so the first request after inactivity may take some time while the server wakes up.
 
 ---
 
-## Environment Setup
+## Overview
 
-This project was developed and tested using:
+Cardiovascular diseases are among the major health risks worldwide. Early identification of potential risk factors can encourage people to take preventive measures and seek professional medical advice.
 
-    - Python 3.11
+This project uses machine learning to analyze health and lifestyle parameters and estimate the likelihood of cardiovascular disease.
 
-Activate virtual environment and:
-    Install dependencies using:
+The application allows users to:
 
-    pip install -r requirements.txt
-
----
-
-## How to run the project
-
-    python src/risk_assessment.py
+- Enter health and lifestyle information
+- Get an AI-based cardiovascular risk prediction
+- View the estimated risk level
+- Understand important risk factors
+- Receive personalized preventive recommendations
+- Use the application directly through a responsive web interface
 
 ---
 
 ## Key Features
-	•	Machine Learning–based disease risk prediction
-	•	Risk score calculation (0–100)
-	•	Risk level classification (Low / Medium / High)
-	•	Personalized preventive health recommendations
-	•	Multiple demo scenarios for testing
+
+### 🧠 AI-Based Risk Prediction
+
+Uses a trained machine learning classification model to estimate cardiovascular disease risk from patient information.
+
+### 📊 Risk Assessment
+
+The application converts the model's prediction into an easy-to-understand risk assessment.
+
+### 💡 Personalized Recommendations
+
+Based on the submitted health and lifestyle information, the system provides preventive recommendations related to areas such as:
+
+- Physical activity
+- Diet and nutrition
+- Smoking
+- Alcohol consumption
+- Blood pressure
+- Cholesterol
+- Blood glucose
+- Weight management
+
+### 🌐 Full-Stack Web Application
+
+The project includes:
+
+- Modern frontend
+- REST API backend
+- Machine learning inference
+- Production deployment
+
+### 📱 Responsive UI
+
+The interface is designed to work across desktop and mobile screen sizes.
+
+### 🚀 Live Deployment
+
+The application is deployed using:
+
+- Vercel for the frontend
+- Render for the backend API
 
 ---
 
@@ -79,19 +113,6 @@ Best performing model: XGBoost
 
 ---
 
-## Technologies Used
-
-    - Python
-    - Pandas
-    - NumPy
-    - Scikit-learn
-    - XGBoost
-    - Matplotlib
-    - Seaborn
-    - Jupyter Notebook
-
----
-
 ## Dataset
 
 Dataset used: Cardiovascular Disease Dataset
@@ -115,5 +136,3 @@ Target variable: Cardio
 
 	0 → No cardiovascular disease
 	1 → Cardiovascular disease present
-
-
